@@ -6,6 +6,8 @@ https://youtu.be/T2UVt_oSlO4?si=7kSfbHmwRkv8dKWj&t=440
 
 Matthew's original question is: Assume the laws of physics on Earth. A small marble is put into a normal cup and the cup is placed upside down on a table. Someone then takes the cup without changing its orientation and puts it inside the microwave. Where is the marble now? Explain your reasoning step by step.
 
+Correct answer: The marble likely stays on the table when we lift up the upside-down cup and put that upside-down cup into the microwave
+
 Upon reviewing the outcomes of various models, it appears that they often incorrectly assume the presence of a lid on the cup, among other unrealistic assumptions, leading to erroneous results.
 
 To enhance the performance of Large Language Models (LLMs) on such queries, I have incorporated advanced prompt engineering techniques, reflecting the expanded context windows of recent models:
@@ -21,11 +23,17 @@ To enhance the performance of Large Language Models (LLMs) on such queries, I ha
 
 Despite these enhancements, the results often remain incorrect. Additional prompting and hints may eventually guide the models to accurate responses, but it is not the aim of this experiment.
 
-From experiments with various models and analyzing response patterns, I would agree with Yann LeCun's perspective ("I don't think we can train a machine to be intelligent purely from text.") until now, as highlighted in this clip here. Initially skeptical, I now concur that large language models (LLMs) primarily predict subsequent words without truly grasping the underlying physics, a viewpoint that grows clearer as I examine more responses from top models.
+From experiments with various models and analyzing response patterns, I would agree with Yann LeCun's perspective ("I don't think we can train a machine to be intelligent purely from text.") as highlighted in this clip here. 
 
-As a practical applicant of AI technology, I would acknowledge the rapid advancement while cautiously being aware of its pros and cons to fully leverage its capabilities. I would wait for the time when the models can understand the underlying physics, perhaps through training on video data or physical interaction in the real or virtual world.
+https://www.youtube.com/watch?v=sWF6SKfjtoU
+
+Initially skeptical, I now concur that large language models (LLMs) primarily predict subsequent words without truly grasping the underlying physics, a viewpoint that grows clearer as I examine more responses from top models.
+
+As a practical applicant of AI technology, I would acknowledge the rapid advancement while cautiously being aware of its pros and cons to fully leverage its capabilities. I would wait for the time that the models can understand the underlying physics, perhaps through training on video data or physical interaction in the real or virtual world.
 
 Additionally, kudos to Meta AI led by Yann's recently launched Llama 3, which has shown impressive performance for the open-source community.
+
+I would greatly appreciate it if you could suggest a quick (prompt) solution to achieve consistent results without altering the context of the question. For detailed information about prompts and responses from various large language models, please visit my GitHub repository at the following link. Thank you for your support!
 
 # My Prompt and Responses from Recent State-of-the-Art LLM's on 22-April-2024
 
