@@ -19,11 +19,14 @@ To enhance the performance of Large Language Models (LLMs) on such queries, I ha
 - **Template Provision:** Supplies a structured template for systematically addressing the query.
 - **Step-by-Step Guidance:** Promotes a sequential, detailed approach to problem-solving.
 
-Despite these enhancements, the results often remain incorrect. Additional prompting and hints may eventually guide the models to accurate responses.
+Despite these enhancements, the results often remain incorrect. Additional prompting and hints may eventually guide the models to accurate responses, but it is not the aim of this experiment.
 
-From experiments with various models and analyzing response patterns, I agree with Yann LeCun's perspective, as highlighted in a recent video [here](https://www.youtube.com/watch?v=sWF6SKfjtoU). Initially skeptical, I now concur that LLMs primarily predict subsequent words without truly grasping the underlying physics, a viewpoint that grows clearer as I examine more responses from top models.
+From experiments with various models and analyzing response patterns, I would agree with Yann LeCun's perspective ("I don't think we can train a machine to be intelligent purely from text.") until now, as highlighted in this clip here. Initially skeptical, I now concur that large language models (LLMs) primarily predict subsequent words without truly grasping the underlying physics, a viewpoint that grows clearer as I examine more responses from top models.
 
-Additionally, kudos to Meta's recently launched Llama 3, which has shown impressive performance for the open-source community.
+As a practical applicant of AI technology, I would acknowledge the rapid advancement while cautiously being aware of its pros and cons to fully leverage its capabilities. I would wait for the time when the models can understand the underlying physics, perhaps through training on video data or physical interaction in the real or virtual world.
+
+Additionally, kudos to Meta AI led by Yann's recently launched Llama 3, which has shown impressive performance for the open-source community.
+
 # My Prompt and Responses from Recent State-of-the-Art LLM Models on 22-April-2024
 
 ## My prompt:
@@ -219,7 +222,7 @@ It is important to note that this answer assumes a standard, opaque cup with no 
 7. FINAL IMPROVED ANSWERS FROM THE INITIAL ANSWER AND REFLECTION: The marble remains inside the upside-down cup throughout the entire process. This is because gravity keeps the marble in place, both when the cup is flipped onto the table and when it is lifted and placed into the microwave. The microwave does not affect the marble's position, as it primarily interacts with water molecules and certain materials, not solid objects like marbles. This final answer takes into account the key points from my initial answer and my reflection on the scenario, ensuring that it is clear, informative, and detailed.
 ```
 
-# Response from GPT-4 from OpenAI Website (Incorrect):
+## Response from GPT-4 from OpenAI Website (Incorrect):
 
 ```
 ### 1. Take a Deep Breath and Think Step by Step
