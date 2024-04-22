@@ -1,6 +1,6 @@
 # Summary
 
-This is a question from Matthew Berman's rubric to compare performances of LLM's. I find it interesting and try to see if the result from Large Language Model (LLM) can be improved with zero-shot prompt engineering as most LLM's, including state-of-the art models such as GPT-4, Claude 3 Opus, Gemini Advanced (Gemini 1.5?), Mistral Large, Llama 3 70B usually gives incorrect results.
+I recently came across a compelling question from Matthew Berman's rubric for evaluating the performance of large language models (LLMs). It sparked my interest in exploring whether zero-shot prompt engineering could enhance the performance of these models. Typically, even state-of-the-art LLMs like GPT-4, Claude 3 Opus, Gemini Advanced (possibly Gemini 1.5), Mistral Large, and Llama 3 70B tend to yield inaccurate results. I'm curious to see if strategic prompt design can lead to improvements. Let's discuss this further!
 
 https://youtu.be/T2UVt_oSlO4?si=7kSfbHmwRkv8dKWj&t=440
 
