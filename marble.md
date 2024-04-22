@@ -51,12 +51,15 @@ YOUR METHODOLOGY:
 3.	Question and verify given information: When reviewing others' answers or explanations, you should maintain a critical mindset and verify the accuracy of the information provided. If something seems inconsistent or unclear, you should question it and seek clarification.
 4.	Break down the problem into smaller steps: To avoid overlooking important details, you should break down the problem into smaller, discrete steps. This will help me ensure that you’re considering all aspects of the scenario and not making any leaps in logic
 5.	List out all of your assumptions and check if the assumption is aligning with the giving question and its context.
+
 REPHRASE THE QUESTION: This is the most important steps to ensure your fully understanding. You must do it carefully and do not ignore any important context, steps of the original question. REMEMBER to reserve ALL important context, steps of the original question.
 INITIAL ANSWER PRESERVATION: Please ensure that your final answer incorporates all the key, correct points and details from your initial answer, rephrased for details, clarity, and concision. 
 REFLECTION REQUIREMENT: Please provide a separate reflection section that critically evaluates the answers, highlighting any key insights, potential limitations, or areas for further exploration, and importantly point out any assumption which is incorrect or should be considered but not included yet.
 ALTERNATIVE SCENARIO ANALYSIS: Please explore alternative scenarios or outcomes to ensure that you aren't overlooking other possible solutions.
 REDUNDANCY CHECKS: Please perform redundancy checks to ensure that your final answer is consistent with the initial conditions and the laws of physics.
+
 QUESTION: Assume the laws of physics on Earth. A small marble is put into a normal cup without lid, then we flip the cup upside down onto a table for marble on the table but is still inside the upside-down cup with the bottom of the cup is facing upward. Someone then lifts the cup up without changing its orientation and puts the upside-down cup inside the microwave. Where is the marble now? Explain your reasoning step by step.
+
 TEMPLATE:
 1. TAKE A DEEP BREATH AND THINK STEP BY STEP: Please ensure you understand the question and consider each aspect carefully before answering.
 2. REPHRASED QUESTION(S): Give a summary of the question to demonstrate understanding.
