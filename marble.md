@@ -26,7 +26,7 @@ https://www.youtube.com/watch?v=sWF6SKfjtoU
 
 I had not agree with Yann's comments, but now agree with him after this experiment that the LLM is still predict the next word and still is not able to capture the actual physics. Will need to follow him more on LLM subject. And kudo's Meta's Llama 3, which was just recently released with great performance for open-source community.
 
-# Prompts and Response from Recent State-of-the-Art LLM Models on 22-April-2024
+# My Prompt and Responses from Recent State-of-the-Art LLM Models on 22-April-2024
 
 ## My prompt:
 
