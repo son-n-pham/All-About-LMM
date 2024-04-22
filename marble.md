@@ -24,16 +24,16 @@ Despite such comprehensive combination of prompt engineering, the results have b
 From the experiments with several models and observe their responses' patterns, I would personally conclude that @Yann LeCun's comment in this clip was correct and is correct until now. But who know if it is still correct with GPT-5000 ^^ ???
 https://www.youtube.com/watch?v=sWF6SKfjtoU
 
-I had not agree with Yann's comments, but now agree after this experiment. Will need to follow him more on LLM subject. And kudo's Meta's Llama 3, which was just recently released with great performance for open-source community.
+I had not agree with Yann's comments, but now agree with him after this experiment that the LLM is still predict the next word and still is not able to capture the actual physics. Will need to follow him more on LLM subject. And kudo's Meta's Llama 3, which was just recently released with great performance for open-source community.
 
 # Prompts and Response from Recent State-of-the-Art LLM Models on 22-April-2024
 
 ## My prompt:
 
-This is the prompt with the mentioned prompt engineering techniques above. I added the info that the cup has no lid to see if the models can detect and use that critical information, but it seems that most (or all models) ignored it.
+This is the prompt with the mentioned prompt engineering techniques above. I added the info that the cup has no lid and the cup's bottom is facing upward when we flip the cup upside down in order to see if the models can detect and use that critical information, but it seems that most (or all models) ignored.
 
 ```markdown
-Domain Expertise: Physician with extensive knowledge on physics.
+Domain Expertise: Physicist with extensive knowledge on physics.
 USE DOMAIN EXPERTISE LANGUAGE: Please use technical terms and language specific to domain expertise to ensure accuracy and relevance.
 
 YOUR METHODOLOGY:
@@ -112,6 +112,59 @@ Here's a breakdown of my reasoning:
 * No external forces are assumed to impact the scenario.
 
 Let me know if you'd like to explore additional scenarios or alter any of the assumptions! 
+```
+
+## Response from Llama3-70b-8192 (Incorrect):
+
+```
+**1. TAKE A DEEP BREATH AND THINK STEP BY STEP**
+
+I will carefully visualize and simulate the scenario to ensure I understand the question correctly.
+
+**2. REPHRASED QUESTION(S)**
+
+To ensure I understand the question correctly, I will rephrase it as follows:
+
+A small marble is placed in a cup without a lid. The cup is then flipped upside down onto a table, and the marble remains inside the cup. The cup, still upside down, is then lifted and placed inside a microwave oven. Where is the marble now?
+
+**3. FULL INITIAL ANSWERS FOR THE QUESTIONS STEP BY STEP**
+
+Let's break down the problem into smaller steps:
+
+Step 1: The marble is placed in a cup without a lid.
+
+* The marble is initially at rest inside the cup.
+
+Step 2: The cup is flipped upside down onto a table.
+
+* The marble, due to gravity, will fall to the bottom of the cup, which is now facing upwards.
+* The marble will come to rest at the bottom of the cup, which is in contact with the table.
+
+Step 3: The cup, still upside down, is lifted and placed inside a microwave oven.
+
+* The marble, being in contact with the bottom of the cup, will remain inside the cup as it is lifted and placed inside the microwave oven.
+* The marble's position relative to the cup remains unchanged.
+
+Therefore, the marble is still inside the upside-down cup, which is now inside the microwave oven.
+
+**4. REFLECTION FOR YOUR INITIAL ANSWERS**
+
+Upon reflection, I realize that my initial answer assumes the marble is small enough to remain inside the cup even when it is flipped upside down. I also assume that the cup is not tilted or moved in a way that would cause the marble to fall out. Additionally, I assume that the microwave oven does not affect the marble's position inside the cup.
+
+**5. ALTERNATIVE SCENARIO ANALYSIS**
+
+Alternative scenarios to consider:
+
+* What if the cup is tilted or moved in a way that causes the marble to fall out when it is lifted and placed inside the microwave oven?
+* What if the microwave oven's electromagnetic fields affect the marble's motion or position inside the cup?
+
+**6. REDUNDANCY CHECKS**
+
+I have checked my answer for consistency with the initial conditions and the laws of physics. The marble's motion is governed by gravity, and its position is determined by the cup's orientation and the forces acting upon it.
+
+**7. FINAL IMPROVED ANSWERS FROM THE INITIAL ANSWER AND REFLECTION**
+
+The marble is still inside the upside-down cup, which is now inside the microwave oven. The marble's position relative to the cup remains unchanged, and it remains in contact with the bottom of the cup. This answer is consistent with the initial conditions and the laws of physics.
 ```
 
 ## Response from 
