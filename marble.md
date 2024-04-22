@@ -1,6 +1,6 @@
 # Summary
 
-This is a question from Matthew Berman's rubric to compare performances of LLM models. I find it interesting and try to see if the result from LLM can be improved with zero-shot prompt engineering as most LLM models, including state-of-the art models such as GPT-4, Claude 3 Opus, Gemini Advanced (Gemini 1.5?), Mistral Large, Llama 3 70B usually gives incorrect results.
+This is a question from Matthew Berman's rubric to compare performances of LLM's. I find it interesting and try to see if the result from Large Language Model (LLM) can be improved with zero-shot prompt engineering as most LLM's, including state-of-the art models such as GPT-4, Claude 3 Opus, Gemini Advanced (Gemini 1.5?), Mistral Large, Llama 3 70B usually gives incorrect results.
 
 https://youtu.be/T2UVt_oSlO4?si=7kSfbHmwRkv8dKWj&t=440
 
@@ -27,7 +27,7 @@ As a practical applicant of AI technology, I would acknowledge the rapid advance
 
 Additionally, kudos to Meta AI led by Yann's recently launched Llama 3, which has shown impressive performance for the open-source community.
 
-# My Prompt and Responses from Recent State-of-the-Art LLM Models on 22-April-2024
+# My Prompt and Responses from Recent State-of-the-Art LLM's on 22-April-2024
 
 ## My prompt:
 
@@ -261,3 +261,103 @@ The analysis remains consistent with the initial conditions and laws of physics 
 - The assumptions about adhesive forces and absence of external jolts are crucial. Further experimental setup or a detailed analysis of the materials involved might be necessary to confirm these assumptions.
 - Additional experiments involving variations in the speed and manner of lifting the cup could provide more insight into the stability of the marble’s position under different conditions.
 ```
+
+# AI Agents:
+
+## Manually deploy a LLM to check the result from another LLM:
+
+In this marble case, does a LLM detect whether the response from other LLM correct? Surprisingly, the second LLM did not detect the logic flaw of the first LLM but felt into the same trap!
+
+Here is my prompt, which is to give the question first, then include the answer from GPT-4. The response (incorrect) is from Claude 3 Opus and from Llama 3 70B.
+
+### Prompt:
+
+```
+I have the below question.
+
+Assume the laws of physics on Earth. A small marble is put into a normal cup without lid, then we flip the cup upside down onto a table for marble on the table but is still inside the upside-down cup with the bottom of the cup is facing upward. Someone then lifts the cup up without changing its orientation and puts the upside-down cup inside the microwave. Where is the marble now? Explain your reasoning step by step.
+
+And I get the below answer from an AI assistant, as a experience physicist with extensive knowledge on physics, check the answer from the AI and let me know what you think.
+
+### 1. Take a Deep Breath and Think Step by Step
+Let's ensure we understand the question and consider each aspect carefully before answering.
+
+### 2. Rephrased Question(s)
+The question posits a scenario where a small marble is placed inside a normal cup which then gets inverted onto a table, thus trapping the marble between the table surface and the cup's rim. The cup is subsequently lifted, still inverted, and placed inside a microwave. We are to determine the marble's position after these actions and describe the physical processes involved in each step.
+
+### 3. Full Initial Answers for the Questions Step by Step
+**Step A: Placing the Marble and Inverting the Cup**
+- Initially, a small marble is placed in a normal cup. Here, gravity acts on the marble, ensuring it rests at the bottom of the cup.
+- The cup is then flipped upside down. In this inverted position, the opening of the cup faces the table, and the marble, due to gravity, is now at what was previously considered the top of the cup, resting against the cup's rim.
+
+**Step B: Positioning on the Table**
+- When the inverted cup is placed onto the table, the marble, influenced by gravity, remains in contact with the cup's inner rim, now facing the table. Assuming no significant external force (like shaking), the marble stays in place, held by the cup’s rim.
+
+**Step C: Moving to the Microwave**
+- The cup, still upside down, is lifted. The marble, still resting against the inner rim, moves with the cup. The assumption here is that the adhesive forces between the marble and the cup’s surface, along with the lack of significant acceleration, prevent the marble from falling within the cup.
+- The cup is placed inside a microwave, maintaining its orientation. Hence, the marble remains in the same position—against the rim of the cup.
+
+### 4. Reflection for Your Initial Answers
+This analysis relies on a fundamental understanding of gravity and adhesive forces. It assumes minimal external forces and no significant changes in acceleration which could alter the marble’s position. A potential limitation is the assumption that the cup’s material and the marble's surface create sufficient adhesive forces to prevent movement. If the adhesive force were insufficient, the marble could potentially move within the inverted cup when lifted.
+
+### 5. Alternative Scenario Analysis
+An alternative scenario could involve the marble rolling inside the cup due to insufficient adhesive forces or due to a jerk while lifting the cup. This would mean the marble might settle at the new ‘bottom’ of the cup (the actual top), possibly moving freely within when the cup is placed in the microwave.
+
+### 6. Redundancy Checks
+The analysis remains consistent with the initial conditions and laws of physics described. The gravitational pull and the physical interactions between the marble and the cup are in accordance with classical mechanics.
+
+### 7. Final Improved Answers from the Initial Answer and Reflection
+**Conclusive Position of the Marble**
+- After the sequence of actions described, the marble is still positioned against the inner rim of the cup, now inside the microwave. This conclusion is based on the continuity of gravitational effects, assuming adhesive forces between the marble and the cup prevent it from moving significantly.
+- This conclusion is predicated on the absence of significant external forces or acceleration changes that might displace the marble from its position against the cup’s rim.
+
+**Final Remarks**
+- The assumptions about adhesive forces and absence of external jolts are crucial. Further experimental setup or a detailed analysis of the materials involved might be necessary to confirm these assumptions.
+- Additional experiments involving variations in the speed and manner of lifting the cup could provide more insight into the stability of the marble’s position under different conditions.
+```
+
+### Response from Claude 3 Opus (Incorrect):
+
+```
+As an experienced physicist, I commend the AI assistant's thorough and step-by-step approach to answering the question. The response demonstrates a clear understanding of the scenario and applies fundamental physics principles to reason through each step logically. 
+
+The AI correctly identifies the key factors at play - gravity acting on the marble and the adhesive forces between the marble and cup. It accurately traces the marble's position from initially resting at the bottom of the upright cup, to being held against the rim when the cup is inverted on the table, to remaining in that position as the cup is lifted and placed in the microwave.
+
+The assumption that the adhesive forces are sufficient to hold the marble in place when the cup is lifted is reasonable, as long as the lifting motion is smooth and doesn't involve sudden jerks or accelerations. The AI rightly notes this as a potential limitation and considers an alternative scenario where the marble could roll if the adhesive forces are insufficient or the cup is jolted.
+
+The AI's reflection on its initial answer is insightful, recognizing the reliance on assumptions about adhesive forces and the absence of external disturbances. Its suggestion for further experimental analysis to confirm these assumptions is very much in line with the scientific method.
+
+The final answer succinctly summarizes the marble's conclusive position based on the given conditions, while appropriately qualifying it with the key assumptions made. The additional remarks on potential experimental variations to test the stability of the marble's position demonstrate strong scientific reasoning.
+
+Overall, I believe the AI's response is exemplary in its systematic approach, clear reasoning based on physics principles, consideration of assumptions and alternative scenarios, and suggestions for further experimental validation. As a physicist, I would be quite satisfied with this comprehensive answer to the posed question.
+```
+
+### Response from Llama 3 70B:
+
+```
+A delightful question!
+
+I've reviewed the AI's response, and I must say it's a thorough and well-structured analysis. The step-by-step approach is excellent, and the explanations are clear and concise. Here's my assessment:
+
+**Strengths:**
+
+1. The AI breaks down the problem into manageable steps, making it easy to follow and understand.
+2. The explanations are rooted in fundamental physics principles, such as gravity and adhesive forces.
+3. The analysis considers multiple scenarios, including the possibility of the marble rolling inside the cup.
+4. The AI acknowledges potential limitations and assumptions, demonstrating a nuanced understanding of the problem.
+
+**Minor suggestions:**
+
+1. In **Step A**, the AI could have explicitly mentioned that the marble's weight is responsible for it resting at the bottom of the cup.
+2. In **Step C**, the assumption about adhesive forces might be worth exploring further. While it's reasonable to assume some level of adhesion, the AI could have provided more context about the materials involved and their properties.
+3. The **Alternative Scenario Analysis** section is a great addition, but it might be helpful to provide more details about the conditions under which the marble would roll inside the cup.
+4. The **Final Remarks** section is a nice touch, as it encourages further exploration and experimentation to validate the assumptions made in the analysis.
+
+**Overall assessment:**
+
+The AI's response is well-written, clear, and demonstrates a solid understanding of the underlying physics principles. The analysis is thorough, and the step-by-step approach makes it easy to follow. While there are some minor suggestions for improvement, the response is excellent overall. I'd give it a solid 9 out of 10!
+```
+
+## What next?
+
+Deploy multi-agent to see if it can improve. Multi-agent framework would be from either Crew AI or AutoGen, probably run LLM agents on Grok or directly from Anthropic or OpenAI as my personal 7-year-old Dell XPS13 is too slow to run reasonable LLMs locally by Ollama or LM Studio.
