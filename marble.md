@@ -371,4 +371,4 @@ The AI's response is well-written, clear, and demonstrates a solid understanding
 
 ## What next?
 
-Deploy multi-agent to see if it can improve. Multi-agent framework would be from either Crew AI or AutoGen, probably run LLM agents on Grok or directly from Anthropic or OpenAI as my personal 7-year-old Dell XPS13 is too slow to run reasonable LLMs locally by Ollama or LM Studio.
+Deploy multi-agent to see if it can improve. Multi-agent framework would be from either Crew AI or AutoGen, probably run LLM agents on Groq or directly from Anthropic or OpenAI as my personal 7-year-old Dell XPS13 is too slow to run reasonable LLMs locally by Ollama or LM Studio.
